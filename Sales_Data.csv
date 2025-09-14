@@ -153,7 +153,6 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1154,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-26,CUST-186,4.6,Gilbert, AZ
 1155,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-29,CUST-187,4.8,Norfolk, VA
 1156,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-02-01,CUST-188,4.8,Madison, WI
-1157,APRL-008,Leather Belt,Apparel,35.00,2,2023-02-04,CUST-189,4.3,Reno, NV
 1158,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-02-07,CUST-190,5.0,Buffalo, NY
 1159,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-02-10,CUST-191,4.4,Toledo, OH
 1160,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-02-13,CUST-192,4.7,Chula Vista, CA
