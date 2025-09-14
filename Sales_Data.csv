@@ -82,7 +82,6 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1082,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-09-08,CUST-148,4.6,"Colorado Springs, CO"
 1083,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-09-11,CUST-130,4.5,"Kansas City, MO"
 1084,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-09-14,CUST-149,4.5,"Virginia Beach, VA"
-1alidation, and analysis.
 1085,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-09-17,CUST-132,4.5,"Columbus, OH"
 1086,BOOK-003,The Art of Statistics,Books,38.00,1,2023-09-20,CUST-150,4.8,"Raleigh, NC"
 1087,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-09-23,CUST-134,4.7,"San Jose, CA"
@@ -554,4 +553,3 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1553,BOOK-002,Advanced Python Programming,Books,59.99,3,2023-12-07,CUST-177,4.9,Norfolk, VA
 1554,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-12-08,CUST-178,4.3,Madison, WI
 1555,HB-002,Vitamin C Supplement,Health & Beauty,19.99,12,2023-12-09,CUST-179,4.5,Reno, NV
-1556,ELEC-008,Tablet Pro,Electronics,899.00,3,2023-12-10,CUST-180,4
