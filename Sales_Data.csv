@@ -148,7 +148,6 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1148,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-01-08,CUST-181,4.5,"Toledo, OH"
 1149,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-01-11,CUST-179,4.9,"Reno, NV"
 1150,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-01-14,CUST-182,4.6,"Chula Vista, CA"
-1152,APRL-007,Winter Coat,Apparel,150.00,1,2023-01-20,CUST-184,4.5,St. Petersburg, FL
 1153,BOOK-006,SQL for Data Analysis,Books,40.00,3,2023-01-23,CUST-185,4.9,Laredo, TX
 1154,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-26,CUST-186,4.6,Gilbert, AZ
 1155,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-29,CUST-187,4.8,Norfolk, VA
