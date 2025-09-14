@@ -147,8 +147,6 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1147,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-01-05,CUST-178,4.8,"Madison, WI"
 1148,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-01-08,CUST-181,4.5,"Toledo, OH"
 1149,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-01-11,CUST-179,4.9,"Reno, NV"
-1150,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-01-14,CUST-182,4.6,"Chula Vista, CA"
-1153,BOOK-006,SQL for Data Analysis,Books,40.00,3,2023-01-23,CUST-185,4.9,Laredo, TX
 1154,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-26,CUST-186,4.6,Gilbert, AZ
 1155,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-29,CUST-187,4.8,Norfolk, VA
 1156,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-02-01,CUST-188,4.8,Madison, WI
