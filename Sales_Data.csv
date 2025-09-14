@@ -1,0 +1,558 @@
+OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,CustomerID,CustomerRating,ShippingAddress
+1001,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-01-15,CUST-101,4.5,"Dallas, TX"
+1002,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-01-18,CUST-102,4.8,"New York, NY"
+1003,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,3,2023-01-20,CUST-103,4.2,"Los Angeles, CA"
+1004,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-01-22,CUST-104,4.7,"Chicago, IL"
+1005,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-01-25,CUST-105,4.9,"Miami, FL"
+1006,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-01-28,CUST-101,4.6,"Dallas, TX"
+1007,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-02-01,CUST-106,,,"Seattle, WA"
+1008,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-02-03,CUST-107,4.9,"Boston, MA"
+1009,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-02-05,CUST-108,4.3,"San Francisco, CA"
+1010,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-02-08,CUST-109,4.8,"Austin, TX"
+1011,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-02-10,CUST-110,4.4,"Denver, CO"
+1012,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,5,2023-02-12,CUST-102,4.1,"New York, NY"
+1013,BOOK-003,The Art of Statistics,Books,38.00,1,2023-02-15,CUST-111,4.7,"Portland, OR"
+1014,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-02-18,CUST-104,4.5,"Chicago, IL"
+1015,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-02-20,CUST-112,4.6,"Phoenix, AZ"
+1016,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-02-23,CUST-103,4.3,"Los Angeles, CA"
+1017,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-02-26,CUST-113,4.8,"Atlanta, GA"
+1018,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-03-01,CUST-114,4.4,"Houston, TX"
+1019,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-03-04,CUST-105,,"Miami, FL"
+1020,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-03-07,CUST-115,4.0,"San Diego, CA"
+1021,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-03-10,CUST-116,4.7,"Philadelphia, PA"
+1022,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-03-12,CUST-107,4.6,"Boston, MA"
+1023,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-03-15,CUST-117,4.9,"Washington, DC"
+1024,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,4,2023-03-18,CUST-108,4.2,"San Francisco, CA"
+1025,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-03-21,CUST-118,4.7,"Las Vegas, NV"
+1026,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-03-24,CUST-119,4.8,"Minneapolis, MN"
+1027,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-03-27,CUST-120,4.9,"Detroit, MI"
+1028,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-03-30,CUST-101,4.5,"Dallas, TX"
+1029,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-04-02,CUST-121,4.9,"Raleigh, NC"
+1030,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,3,2023-04-05,CUST-106,4.3,"Seattle, WA"
+1031,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-04-08,CUST-122,5.0,"Charlotte, NC"
+1032,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,2,2023-04-11,CUST-110,4.0,"Denver, CO"
+1033,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-04-14,CUST-123,4.2,"Nashville, TN"
+1034,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-04-17,CUST-111,4.6,"Portland, OR"
+1035,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-04-20,CUST-124,4.4,"Orlando, FL"
+1036,HB-002,Vitamin C Supplement,Health & Beauty,19.99,2,2023-04-23,CUST-102,4.5,"New York, NY"
+1037,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-04-26,CUST-125,,"St. Louis, MO"
+1038,BOOK-003,The Art of Statistics,Books,38.00,2,2023-04-29,CUST-113,4.8,"Atlanta, GA"
+1039,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-05-02,CUST-126,4.7,"Tampa, FL"
+1040,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-05-05,CUST-115,4.1,"San Diego, CA"
+1041,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-05-08,CUST-127,4.8,"Baltimore, MD"
+1042,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-05-11,CUST-117,4.9,"Washington, DC"
+1043,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-05-14,CUST-128,4.6,"Pittsburgh, PA"
+1044,APRL-002,Women's Yoga Pants,Apparel,49.99,3,2023-05-17,CUST-119,3.9,"Minneapolis, MN"
+1045,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-05-20,CUST-129,4.5,"Cincinnati, OH"
+1046,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,2,2023-05-23,CUST-104,4.7,"Chicago, IL"
+1047,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,5,2023-05-26,CUST-130,4.3,"Kansas City, MO"
+1048,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-05-29,CUST-109,4.8,"Austin, TX"
+1049,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-06-01,CUST-131,4.6,"Indianapolis, IN"
+1050,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-06-04,CUST-132,5.0,"Columbus, OH"
+1051,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-06-07,CUST-101,4.7,"Dallas, TX"
+1052,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-06-10,CUST-133,4.4,"San Antonio, TX"
+1053,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-06-13,CUST-102,4.9,"New York, NY"
+1054,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-06-16,CUST-134,4.5,"San Jose, CA"
+1055,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-06-19,CUST-103,4.8,"Los Angeles, CA"
+1056,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,3,2023-06-22,CUST-135,4.2,"Jacksonville, FL"
+1057,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-06-25,CUST-105,4.4,"Miami, FL"
+1058,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-06-28,CUST-136,4.5,"Fort Worth, TX"
+1059,APRL-002,Women's Yoga Pants,Apparel,49.99,1,2023-07-01,CUST-107,4.1,"Boston, MA"
+1060,HB-002,Vitamin C Supplement,Health & Beauty,19.99,4,2023-07-04,CUST-137,4.6,"El Paso, TX"
+1061,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-07-07,CUST-108,,"San Francisco, CA"
+1062,BOOK-003,The Art of Statistics,Books,38.00,1,2023-07-10,CUST-138,4.7,"Memphis, TN"
+1063,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-07-13,CUST-110,4.8,"Denver, CO"
+1064,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-07-16,CUST-139,4.2,"Oklahoma City, OK"
+1065,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-07-19,CUST-112,4.9,"Phoenix, AZ"
+1066,HB-003,Electric Toothbrush,Health & Beauty,79.50,2,2023-07-22,CUST-140,4.8,"Louisville, KY"
+1067,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-07-25,CUST-114,4.5,"Houston, TX"
+1068,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,6,2023-07-28,CUST-141,4.0,"Milwaukee, WI"
+1069,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-07-31,CUST-116,4.6,"Philadelphia, PA"
+1070,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-08-03,CUST-142,4.7,"Albuquerque, NM"
+1071,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,3,2023-08-06,CUST-118,4.1,"Las Vegas, NV"
+1072,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-08-09,CUST-143,4.9,"Tucson, AZ"
+1073,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-08-12,CUST-120,4.8,"Detroit, MI"
+1074,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-08-15,CUST-144,4.9,"Fresno, CA"
+1075,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-08-18,CUST-122,5.0,"Charlotte, NC"
+1076,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-08-21,CUST-145,4.6,"Sacramento, CA"
+1077,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-08-24,CUST-124,4.9,"Orlando, FL"
+1078,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,2,2023-08-27,CUST-146,4.4,"Mesa, AZ"
+1079,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-08-30,CUST-126,4.7,"Tampa, FL"
+1080,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,4,2023-09-02,CUST-147,4.3,"Long Beach, CA"
+1081,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-09-05,CUST-128,4.3,"Pittsburgh, PA"
+1082,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-09-08,CUST-148,4.6,"Colorado Springs, CO"
+1083,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-09-11,CUST-130,4.5,"Kansas City, MO"
+1084,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-09-14,CUST-149,4.5,"Virginia Beach, VA"
+1alidation, and analysis.
+1085,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-09-17,CUST-132,4.5,"Columbus, OH"
+1086,BOOK-003,The Art of Statistics,Books,38.00,1,2023-09-20,CUST-150,4.8,"Raleigh, NC"
+1087,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-09-23,CUST-134,4.7,"San Jose, CA"
+1088,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-09-26,CUST-151,4.3,"Omaha, NE"
+1089,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-09-29,CUST-136,4.8,"Fort Worth, TX"
+1090,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-10-02,CUST-152,4.9,"Oakland, CA"
+1091,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-10-05,CUST-138,4.6,"Memphis, TN"
+1092,APRL-002,Women's Yoga Pants,Apparel,49.99,3,2023-10-08,CUST-153,4.0,"Tulsa, OK"
+1093,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-10-11,CUST-140,4.6,"Louisville, KY"
+1094,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,2,2023-10-14,CUST-154,4.7,"Bakersfield, CA"
+1095,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,8,2023-10-17,CUST-142,4.2,"Albuquerque, NM"
+1096,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-10-20,CUST-155,4.8,"Wichita, KS"
+1097,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-10-23,CUST-144,4.7,"Fresno, CA"
+1098,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-10-26,CUST-156,5.0,"Arlington, TX"
+1099,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-10-29,CUST-146,4.8,"Mesa, AZ"
+1100,APRL-006,Men's Formal Shirt,Apparel,55.00,1,2023-11-01,CUST-157,4.5,"New Orleans, LA"
+1101,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-11-03,CUST-148,4.9,"Colorado Springs, CO"
+1102,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-11-05,CUST-158,4.6,"Cleveland, OH"
+1103,BOOK-002,Advanced Python Programming,Books,59.99,2,2023-11-07,CUST-150,4.8,"Raleigh, NC"
+1104,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,10,2023-11-09,CUST-159,4.1,"Honolulu, HI"
+1105,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-11-11,CUST-152,4.4,"Oakland, CA"
+1106,ELEC-004,Smartwatch Series 8,Electronics,429.00,2,2023-11-13,CUST-160,4.6,"Long Beach, CA"
+1107,APRL-002,Women's Yoga Pants,Apparel,49.99,4,2023-11-15,CUST-154,4.2,"Bakersfield, CA"
+1108,HB-002,Vitamin C Supplement,Health & Beauty,19.99,5,2023-11-17,CUST-161,4.5,"Lexington, KY"
+1109,ELEC-001,4K Smart TV,Electronics,799.99,2,2023-11-19,CUST-156,4.5,"Arlington, TX"
+1110,BOOK-003,The Art of Statistics,Books,38.00,3,2023-11-21,CUST-162,4.7,"Corpus Christi, TX"
+1111,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-11-23,CUST-158,4.8,"Cleveland, OH"
+1112,APRL-003,Women's Running Shoes,Apparel,89.95,2,2023-11-24,CUST-163,4.3,"Stockton, CA"
+1113,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-11-25,CUST-160,4.9,"Long Beach, CA"
+1114,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-11-26,CUST-164,4.8,"Henderson, NV"
+1115,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-11-27,CUST-161,4.6,"Lexington, KY"
+1116,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,12,2023-11-28,CUST-165,4.2,"Plano, TX"
+1117,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-11-29,CUST-163,4.7,"Stockton, CA"
+1118,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,3,2023-11-30,CUST-166,4.7,"Lincoln, NE"
+1119,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,5,2023-12-01,CUST-164,4.1,"Henderson, NV"
+1120,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-12-02,CUST-167,4.9,"St. Paul, MN"
+1121,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,2,2023-12-03,CUST-165,4.8,"Plano, TX"
+1122,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-12-04,CUST-168,4.9,"Jersey City, NJ"
+1123,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-12-05,CUST-166,5.0,"Lincoln, NE"
+1124,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-12-06,CUST-169,4.6,"Greensboro, NC"
+1125,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-12-07,CUST-167,4.9,"St. Paul, MN"
+1126,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,4,2023-12-08,CUST-170,4.4,"Chandler, AZ"
+1127,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-12-09,CUST-168,4.8,"Jersey City, NJ"
+1128,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,8,2023-12-10,CUST-171,4.3,"Fort Wayne, IN"
+1129,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-12-11,CUST-169,4.3,"Greensboro, NC"
+1130,ELEC-004,Smartwatch Series 8,Electronics,429.00,3,2023-12-12,CUST-172,4.6,"Irvine, CA"
+1131,APRL-005,Women's Summer Dress,Apparel,65.50,2,2023-12-13,CUST-170,4.5,"Chandler, AZ"
+1132,HB-002,Vitamin C Supplement,Health & Beauty,19.99,6,2023-12-14,CUST-173,4.5,"Durham, NC"
+1133,ELEC-001,4K Smart TV,Electronics,799.99,2,2023-12-15,CUST-171,4.5,"Fort Wayne, IN"
+1134,BOOK-003,The Art of Statistics,Books,38.00,2,2023-12-16,CUST-174,4.8,"St. Petersburg, FL"
+1135,HK-003,Air Fryer XL,Home & Kitchen,129.99,2,2023-12-17,CUST-172,4.7,"Irvine, CA"
+1136,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-12-18,CUST-175,4.3,"Laredo, TX"
+1137,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-12-19,CUST-173,4.8,"Durham, NC"
+1138,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-12-20,CUST-176,4.9,"Gilbert, AZ"
+1139,BOOK-001,The Data Scientist's Handbook,Books,45.50,3,2023-12-21,CUST-174,4.6,"St. Petersburg, FL"
+1140,APRL-002,Women's Yoga Pants,Apparel,49.99,5,2023-12-22,CUST-177,4.0,"Norfolk, VA"
+1141,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-12-23,CUST-175,4.6,"Laredo, TX"
+1142,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,4,2023-12-24,CUST-178,4.7,"Madison, WI"
+1143,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,7,2023-12-26,CUST-176,4.2,"Gilbert, AZ"
+1144,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-12-28,CUST-179,4.8,"Reno, NV"
+1145,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-12-30,CUST-177,4.7,"Norfolk, VA"
+1146,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-01-02,CUST-180,5.0,"Buffalo, NY"
+1147,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-01-05,CUST-178,4.8,"Madison, WI"
+1148,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-01-08,CUST-181,4.5,"Toledo, OH"
+1149,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-01-11,CUST-179,4.9,"Reno, NV"
+1150,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-01-14,CUST-182,4.6,"Chula Vista, CA"
+1151,ELEC-007,Digital Camera,Electronics,650.00,1,2023-01-17,CUST-183,4.7,Fort Wayne, IN
+1152,APRL-007,Winter Coat,Apparel,150.00,1,2023-01-20,CUST-184,4.5,St. Petersburg, FL
+1153,BOOK-006,SQL for Data Analysis,Books,40.00,3,2023-01-23,CUST-185,4.9,Laredo, TX
+1154,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-26,CUST-186,4.6,Gilbert, AZ
+1155,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-29,CUST-187,4.8,Norfolk, VA
+1156,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-02-01,CUST-188,4.8,Madison, WI
+1157,APRL-008,Leather Belt,Apparel,35.00,2,2023-02-04,CUST-189,4.3,Reno, NV
+1158,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-02-07,CUST-190,5.0,Buffalo, NY
+1159,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-02-10,CUST-191,4.4,Toledo, OH
+1160,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-02-13,CUST-192,4.7,Chula Vista, CA
+1161,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-02-16,CUST-193,4.6,Fort Wayne, IN
+1162,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,5,2023-02-19,CUST-194,4.2,St. Petersburg, FL
+1163,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-02-22,CUST-195,4.8,Laredo, TX
+1164,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-02-25,CUST-196,4.7,Gilbert, AZ
+1165,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-02-28,CUST-197,4.9,Norfolk, VA
+1166,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-03-03,CUST-198,4.7,Madison, WI
+1167,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-03-06,CUST-199,4.1,Reno, NV
+1168,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-03-09,CUST-200,4.9,Buffalo, NY
+1169,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-03-12,CUST-201,4.3,Toledo, OH
+1170,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-03-15,CUST-202,4.5,Chula Vista, CA
+1171,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-03-18,CUST-101,4.9,Dallas, TX
+1172,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-03-21,CUST-102,4.3,New York, NY
+1173,BOOK-003,The Art of Statistics,Books,38.00,1,2023-03-24,CUST-103,4.8,Los Angeles, CA
+1174,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-03-27,CUST-104,4.7,Chicago, IL
+1175,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-03-30,CUST-105,4.9,Miami, FL
+1176,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-04-02,CUST-106,4.6,Seattle, WA
+1177,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-04-05,CUST-107,4.5,Boston, MA
+1178,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-04-08,CUST-108,4.9,San Francisco, CA
+1179,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-04-11,CUST-109,5.0,Austin, TX
+1180,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,2,2023-04-14,CUST-110,4.4,Denver, CO
+1181,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-04-17,CUST-111,4.7,Portland, OR
+1182,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-04-20,CUST-112,4.4,Phoenix, AZ
+1183,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-04-23,CUST-113,5.0,Atlanta, GA
+1184,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-04-26,CUST-114,4.8,Houston, TX
+1185,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-04-29,CUST-115,4.6,San Diego, CA
+1186,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-05-02,CUST-116,4.8,Philadelphia, PA
+1187,APRL-006,Men's Formal Shirt,Apparel,55.00,1,2023-05-05,CUST-117,4.5,Washington, DC
+1188,BOOK-006,SQL for Data Analysis,Books,40.00,1,2023-05-08,CUST-118,4.9,Las Vegas, NV
+1189,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-05-11,CUST-119,4.6,Minneapolis, MN
+1190,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-05-14,CUST-120,4.8,Detroit, MI
+1191,ELEC-007,Digital Camera,Electronics,650.00,1,2023-05-17,CUST-121,4.7,Raleigh, NC
+1192,APRL-007,Winter Coat,Apparel,150.00,1,2023-05-20,CUST-122,4.5,Charlotte, NC
+1193,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-05-23,CUST-123,5.0,Nashville, TN
+1194,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-05-26,CUST-124,4.4,Orlando, FL
+1195,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-05-29,CUST-125,4.7,St. Louis, MO
+1196,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-06-01,CUST-126,4.8,Tampa, FL
+1197,APRL-008,Leather Belt,Apparel,35.00,1,2023-06-04,CUST-127,4.3,Baltimore, MD
+1198,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-06-07,CUST-128,4.8,Pittsburgh, PA
+1199,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-06-10,CUST-129,4.7,Cincinnati, OH
+1200,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-06-13,CUST-130,4.9,Kansas City, MO
+1201,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-06-16,CUST-131,4.6,Indianapolis, IN
+1202,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,4,2023-06-19,CUST-132,4.2,Columbus, OH
+1203,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-06-22,CUST-133,4.9,San Antonio, TX
+1204,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-06-25,CUST-134,4.3,San Jose, CA
+1205,HB-002,Vitamin C Supplement,Health & Beauty,19.99,2,2023-06-28,CUST-135,4.5,Jacksonville, FL
+1206,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-07-01,CUST-136,4.7,Fort Worth, TX
+1207,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-07-04,CUST-137,4.1,El Paso, TX
+1208,BOOK-003,The Art of Statistics,Books,38.00,1,2023-07-07,CUST-138,4.8,Memphis, TN
+1209,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-07-10,CUST-139,4.7,Oklahoma City, OK
+1210,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-07-13,CUST-140,4.9,Louisville, KY
+1211,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-07-16,CUST-141,4.9,Milwaukee, WI
+1212,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-07-19,CUST-142,4.3,Albuquerque, NM
+1213,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-07-22,CUST-143,4.9,Tucson, AZ
+1214,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-07-25,CUST-144,5.0,Fresno, CA
+1215,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,3,2023-07-28,CUST-145,4.4,Sacramento, CA
+1216,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-07-31,CUST-146,4.6,Mesa, AZ
+1217,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-08-03,CUST-147,4.5,Long Beach, CA
+1218,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-08-06,CUST-148,5.0,Colorado Springs, CO
+1219,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-08-09,CUST-149,4.8,Virginia Beach, VA
+1220,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-08-12,CUST-150,4.6,Raleigh, NC
+1221,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,2,2023-08-15,CUST-151,4.7,Omaha, NE
+1222,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-08-18,CUST-152,4.4,Oakland, CA
+1223,BOOK-006,SQL for Data Analysis,Books,40.00,1,2023-08-21,CUST-153,4.9,Tulsa, OK
+1224,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-08-24,CUST-154,4.6,Bakersfield, CA
+1225,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-08-27,CUST-155,4.8,Wichita, KS
+1226,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-08-30,CUST-156,4.8,Arlington, TX
+1227,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-09-02,CUST-157,4.5,New Orleans, LA
+1228,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-09-05,CUST-158,5.0,Cleveland, OH
+1229,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-09-08,CUST-159,4.4,Honolulu, HI
+1230,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-09-11,CUST-160,4.7,Long Beach, CA
+1231,ELEC-007,Digital Camera,Electronics,650.00,1,2023-09-14,CUST-161,4.7,Lexington, KY
+1232,APRL-007,Winter Coat,Apparel,150.00,1,2023-09-17,CUST-162,4.5,Corpus Christi, TX
+1233,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-09-20,CUST-163,4.8,Stockton, CA
+1234,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-09-23,CUST-164,4.7,Henderson, NV
+1235,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-09-26,CUST-165,4.9,Plano, TX
+1236,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-09-29,CUST-166,4.8,Lincoln, NE
+1237,APRL-008,Leather Belt,Apparel,35.00,3,2023-10-02,CUST-167,4.3,St. Paul, MN
+1238,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-10-05,CUST-168,4.9,Jersey City, NJ
+1239,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-10-08,CUST-169,4.3,Greensboro, NC
+1240,HB-002,Vitamin C Supplement,Health & Beauty,19.99,4,2023-10-11,CUST-170,4.5,Chandler, AZ
+1241,ELEC-001,4K Smart TV,Electronics,799.99,2,2023-10-14,CUST-171,4.6,Fort Wayne, IN
+1242,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,15,2023-10-17,CUST-172,4.2,Irvine, CA
+1243,BOOK-003,The Art of Statistics,Books,38.00,2,2023-10-20,CUST-173,4.8,Durham, NC
+1244,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-10-23,CUST-174,4.7,St. Petersburg, FL
+1245,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-10-26,CUST-175,4.9,Laredo, TX
+1246,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,2,2023-10-29,CUST-176,4.7,Gilbert, AZ
+1247,APRL-002,Women's Yoga Pants,Apparel,49.99,6,2023-11-01,CUST-177,4.1,Norfolk, VA
+1248,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-11-04,CUST-178,4.9,Madison, WI
+1249,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-11-07,CUST-179,5.0,Reno, NV
+1250,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,5,2023-11-10,CUST-180,4.4,Buffalo, NY
+1251,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-11-13,CUST-181,4.9,Toledo, OH
+1252,APRL-003,Women's Running Shoes,Apparel,89.95,2,2023-11-16,CUST-182,4.3,Chula Vista, CA
+1253,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-11-19,CUST-183,5.0,Fort Wayne, IN
+1254,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-11-22,CUST-184,4.8,St. Petersburg, FL
+1255,HB-005,Anti-Aging Cream,Health & Beauty,45.00,2,2023-11-24,CUST-185,4.6,Laredo, TX
+1256,ELEC-004,Smartwatch Series 8,Electronics,429.00,4,2023-11-25,CUST-186,4.6,Gilbert, AZ
+1257,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-11-26,CUST-187,4.5,Norfolk, VA
+1258,BOOK-006,SQL for Data Analysis,Books,40.00,3,2023-11-27,CUST-188,4.9,Madison, WI
+1259,HK-006,Blender Pro,Home & Kitchen,95.00,2,2023-11-28,CUST-189,4.6,Reno, NV
+1260,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-11-29,CUST-190,4.8,Buffalo, NY
+1261,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,5,2023-11-30,CUST-191,4.7,Toledo, OH
+1262,APRL-005,Women's Summer Dress,Apparel,65.50,3,2023-12-01,CUST-192,4.4,Chula Vista, CA
+1263,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-12-02,CUST-193,5.0,Fort Wayne, IN
+1264,HK-007,Coffee Grinder,Home & Kitchen,30.00,2,2023-12-03,CUST-194,4.4,St. Petersburg, FL
+1265,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-12-04,CUST-195,4.7,Laredo, TX
+1266,ELEC-006,Drone with 4K Camera,Electronics,599.00,2,2023-12-05,CUST-196,4.8,Gilbert, AZ
+1267,APRL-006,Men's Formal Shirt,Apparel,55.00,3,2023-12-06,CUST-197,4.5,Norfolk, VA
+1268,BOOK-001,The Data Scientist's Handbook,Books,45.50,4,2023-12-07,CUST-198,4.8,Madison, WI
+1269,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-12-08,CUST-199,4.7,Reno, NV
+1270,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-12-09,CUST-200,4.9,Buffalo, NY
+1271,ELEC-007,Digital Camera,Electronics,650.00,1,2023-12-10,CUST-201,4.7,Toledo, OH
+1272,APRL-007,Winter Coat,Apparel,150.00,2,2023-12-11,CUST-202,4.5,Chula Vista, CA
+1273,BOOK-002,Advanced Python Programming,Books,59.99,2,2023-12-12,CUST-101,4.9,Dallas, TX
+1274,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-12-13,CUST-102,4.3,New York, NY
+1275,HB-002,Vitamin C Supplement,Health & Beauty,19.99,8,2023-12-14,CUST-103,4.5,Los Angeles, CA
+1276,ELEC-008,Tablet Pro,Electronics,899.00,2,2023-12-15,CUST-104,4.8,Chicago, IL
+1277,APRL-008,Leather Belt,Apparel,35.00,4,2023-12-16,CUST-105,4.3,Miami, FL
+1278,BOOK-003,The Art of Statistics,Books,38.00,3,2023-12-17,CUST-106,4.8,Seattle, WA
+1279,HK-003,Air Fryer XL,Home & Kitchen,129.99,2,2023-12-18,CUST-107,4.7,Boston, MA
+1280,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-12-19,CUST-108,4.9,San Francisco, CA
+1281,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-12-20,CUST-109,4.6,Austin, TX
+1282,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,20,2023-12-21,CUST-110,4.2,Denver, CO
+1283,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-12-22,CUST-111,4.9,Portland, OR
+1284,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-12-23,CUST-112,5.0,Phoenix, AZ
+1285,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,6,2023-12-24,CUST-113,4.4,Atlanta, GA
+1286,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-12-26,CUST-114,4.7,Houston, TX
+1287,APRL-002,Women's Yoga Pants,Apparel,49.99,8,2023-12-28,CUST-115,4.1,San Diego, CA
+1288,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-12-30,CUST-116,5.0,Philadelphia, PA
+1289,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-01-03,CUST-117,4.8,Washington, DC
+1290,HB-005,Anti-Aging Cream,Health & Beauty,45.00,2,2023-01-06,CUST-118,4.6,Las Vegas, NV
+1291,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-01-09,CUST-119,4.9,Minneapolis, MN
+1292,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-01-12,CUST-120,4.3,Detroit, MI
+1293,BOOK-006,SQL for Data Analysis,Books,40.00,2,2023-01-15,CUST-121,4.9,Raleigh, NC
+1294,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-18,CUST-122,4.6,Charlotte, NC
+1295,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-21,CUST-123,4.8,Nashville, TN
+1296,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-01-24,CUST-124,4.6,Orlando, FL
+1297,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-01-27,CUST-125,4.5,St. Louis, MO
+1298,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-01-30,CUST-126,5.0,Tampa, FL
+1299,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-02-02,CUST-127,4.4,Baltimore, MD
+1300,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-02-05,CUST-128,4.7,Pittsburgh, PA
+1301,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-02-08,CUST-129,4.7,Cincinnati, OH
+1302,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-02-11,CUST-130,4.4,Kansas City, MO
+1303,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-02-14,CUST-131,4.8,Indianapolis, IN
+1304,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-02-17,CUST-132,4.7,Columbus, OH
+1305,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-02-20,CUST-133,4.9,San Antonio, TX
+1306,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-02-23,CUST-134,4.8,San Jose, CA
+1307,APRL-006,Men's Formal Shirt,Apparel,55.00,1,2023-02-26,CUST-135,4.5,Jacksonville, FL
+1308,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-03-01,CUST-136,4.9,Fort Worth, TX
+1309,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-03-04,CUST-137,4.3,El Paso, TX
+1310,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-03-07,CUST-138,4.5,Memphis, TN
+1311,ELEC-007,Digital Camera,Electronics,650.00,1,2023-03-10,CUST-139,4.7,Oklahoma City, OK
+1312,APRL-007,Winter Coat,Apparel,150.00,1,2023-03-13,CUST-140,4.5,Louisville, KY
+1313,BOOK-003,The Art of Statistics,Books,38.00,1,2023-03-16,CUST-141,4.8,Milwaukee, WI
+1314,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-03-19,CUST-142,4.7,Albuquerque, NM
+1315,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-03-22,CUST-143,4.9,Tucson, AZ
+1316,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-03-25,CUST-144,4.8,Fresno, CA
+1317,APRL-008,Leather Belt,Apparel,35.00,2,2023-03-28,CUST-145,4.3,Sacramento, CA
+1318,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-03-31,CUST-146,4.9,Mesa, AZ
+1319,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-04-03,CUST-147,5.0,Long Beach, CA
+1320,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,2,2023-04-06,CUST-148,4.4,Colorado Springs, CO
+1321,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-04-09,CUST-149,4.6,Virginia Beach, VA
+1322,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,6,2023-04-12,CUST-150,4.2,Raleigh, NC
+1323,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-04-15,CUST-151,5.0,Omaha, NE
+1324,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-04-18,CUST-152,4.8,Oakland, CA
+1325,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-04-21,CUST-153,4.6,Tulsa, OK
+1326,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-04-24,CUST-154,4.7,Bakersfield, CA
+1327,APRL-002,Women's Yoga Pants,Apparel,49.99,3,2023-04-27,CUST-155,4.1,Wichita, KS
+1328,BOOK-006,SQL for Data Analysis,Books,40.00,1,2023-04-30,CUST-156,4.9,Arlington, TX
+1329,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-05-03,CUST-157,4.6,New Orleans, LA
+1330,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-05-06,CUST-158,4.8,Cleveland, OH
+1331,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-05-09,CUST-159,4.9,Honolulu, HI
+1332,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-05-12,CUST-160,4.3,Long Beach, CA
+1333,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-05-15,CUST-161,5.0,Lexington, KY
+1334,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-05-18,CUST-162,4.4,Corpus Christi, TX
+1335,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-05-21,CUST-163,4.7,Stockton, CA
+1336,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-05-24,CUST-164,4.6,Henderson, NV
+1337,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-05-27,CUST-165,4.5,Plano, TX
+1338,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-05-30,CUST-166,4.8,Lincoln, NE
+1339,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-06-02,CUST-167,4.7,St. Paul, MN
+1340,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-06-05,CUST-168,4.9,Jersey City, NJ
+1341,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-06-08,CUST-169,4.7,Greensboro, NC
+1342,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-06-11,CUST-170,4.4,Chandler, AZ
+1343,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-06-14,CUST-171,4.9,Fort Wayne, IN
+1344,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-06-17,CUST-172,4.3,Irvine, CA
+1345,HB-002,Vitamin C Supplement,Health & Beauty,19.99,4,2023-06-20,CUST-173,4.5,Durham, NC
+1346,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-06-23,CUST-174,4.8,St. Petersburg, FL
+1347,APRL-006,Men's Formal Shirt,Apparel,55.00,2,2023-06-26,CUST-175,4.5,Laredo, TX
+1348,BOOK-003,The Art of Statistics,Books,38.00,1,2023-06-29,CUST-176,4.8,Gilbert, AZ
+1349,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-07-02,CUST-177,4.7,Norfolk, VA
+1350,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-07-05,CUST-178,4.9,Madison, WI
+1351,ELEC-007,Digital Camera,Electronics,650.00,1,2023-07-08,CUST-179,4.7,Reno, NV
+1352,APRL-007,Winter Coat,Apparel,150.00,1,2023-07-11,CUST-180,4.5,Buffalo, NY
+1353,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-07-14,CUST-181,4.9,Toledo, OH
+1354,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-07-17,CUST-182,5.0,Chula Vista, CA
+1355,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,3,2023-07-20,CUST-183,4.4,Fort Wayne, IN
+1356,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-07-23,CUST-184,4.8,St. Petersburg, FL
+1357,APRL-008,Leather Belt,Apparel,35.00,1,2023-07-26,CUST-185,4.3,Laredo, TX
+1358,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-07-29,CUST-186,5.0,Gilbert, AZ
+1359,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-08-01,CUST-187,4.8,Norfolk, VA
+1360,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-08-04,CUST-188,4.6,Madison, WI
+1361,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-08-07,CUST-189,4.6,Reno, NV
+1362,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,8,2023-08-10,CUST-190,4.2,Buffalo, NY
+1363,BOOK-006,SQL for Data Analysis,Books,40.00,2,2023-08-13,CUST-191,4.9,Toledo, OH
+1364,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-08-16,CUST-192,4.6,Chula Vista, CA
+1365,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-08-19,CUST-193,4.8,Fort Wayne, IN
+1366,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-08-22,CUST-194,4.7,St. Petersburg, FL
+1367,APRL-002,Women's Yoga Pants,Apparel,49.99,4,2023-08-25,CUST-195,4.1,Laredo, TX
+1368,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-08-28,CUST-196,5.0,Gilbert, AZ
+1369,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-08-31,CUST-197,4.4,Norfolk, VA
+1370,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-09-03,CUST-198,4.7,Madison, WI
+1371,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-09-06,CUST-199,4.9,Reno, NV
+1372,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-09-09,CUST-200,4.3,Buffalo, NY
+1373,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-09-12,CUST-201,4.8,Toledo, OH
+1374,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-09-15,CUST-202,4.7,Chula Vista, CA
+1375,HB-001,Organic Face Serum,Health & Beauty,35.75,2,2023-09-18,CUST-101,4.9,Dallas, TX
+1376,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-09-21,CUST-102,4.6,New York, NY
+1377,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-09-24,CUST-103,4.5,Los Angeles, CA
+1378,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-09-27,CUST-104,4.9,Chicago, IL
+1379,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-09-30,CUST-105,4.3,Miami, FL
+1380,HB-002,Vitamin C Supplement,Health & Beauty,19.99,5,2023-10-03,CUST-106,4.5,Seattle, WA
+1381,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,3,2023-10-06,CUST-107,4.7,Boston, MA
+1382,APRL-005,Women's Summer Dress,Apparel,65.50,2,2023-10-09,CUST-108,4.4,San Francisco, CA
+1383,BOOK-003,The Art of Statistics,Books,38.00,3,2023-10-12,CUST-109,4.8,Austin, TX
+1384,HK-003,Air Fryer XL,Home & Kitchen,129.99,2,2023-10-15,CUST-110,4.7,Denver, CO
+1385,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-10-18,CUST-111,4.9,Portland, OR
+1386,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-10-21,CUST-112,4.8,Phoenix, AZ
+1387,APRL-006,Men's Formal Shirt,Apparel,55.00,4,2023-10-24,CUST-113,4.5,Atlanta, GA
+1388,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-10-27,CUST-114,4.9,Houston, TX
+1389,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-10-30,CUST-115,5.0,San Diego, CA
+1390,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,8,2023-11-02,CUST-116,4.4,Philadelphia, PA
+1391,ELEC-007,Digital Camera,Electronics,650.00,2,2023-11-05,CUST-117,4.7,Washington, DC
+1392,APRL-007,Winter Coat,Apparel,150.00,1,2023-11-08,CUST-118,4.5,Las Vegas, NV
+1393,BOOK-005,Deep Learning with PyTorch,Books,75.00,2,2023-11-11,CUST-119,5.0,Minneapolis, MN
+1394,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-11-14,CUST-120,4.8,Detroit, MI
+1395,HB-005,Anti-Aging Cream,Health & Beauty,45.00,3,2023-11-17,CUST-121,4.6,Raleigh, NC
+1396,ELEC-008,Tablet Pro,Electronics,899.00,3,2023-11-20,CUST-122,4.8,Charlotte, NC
+1397,APRL-008,Leather Belt,Apparel,35.00,5,2023-11-23,CUST-123,4.3,Nashville, TN
+1398,BOOK-006,SQL for Data Analysis,Books,40.00,4,2023-11-25,CUST-124,4.9,Orlando, FL
+1399,HK-006,Blender Pro,Home & Kitchen,95.00,2,2023-11-26,CUST-125,4.6,St. Louis, MO
+1400,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-11-27,CUST-126,4.8,Tampa, FL
+1401,ELEC-001,4K Smart TV,Electronics,799.99,2,2023-11-28,CUST-127,4.6,Baltimore, MD
+1402,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,25,2023-11-29,CUST-128,4.2,Pittsburgh, PA
+1403,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-11-30,CUST-129,5.0,Cincinnati, OH
+1404,HK-007,Coffee Grinder,Home & Kitchen,30.00,3,2023-12-01,CUST-130,4.4,Kansas City, MO
+1405,HB-007,Beard Trimmer,Health & Beauty,45.00,2,2023-12-02,CUST-131,4.7,Indianapolis, IN
+1406,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,3,2023-12-03,CUST-132,4.7,Columbus, OH
+1407,APRL-002,Women's Yoga Pants,Apparel,49.99,10,2023-12-04,CUST-133,4.1,San Antonio, TX
+1408,BOOK-001,The Data Scientist's Handbook,Books,45.50,5,2023-12-05,CUST-134,4.8,San Jose, CA
+1409,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-12-06,CUST-135,4.7,Jacksonville, FL
+1410,HB-001,Organic Face Serum,Health & Beauty,35.75,4,2023-12-07,CUST-136,4.9,Fort Worth, TX
+1411,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-12-08,CUST-137,4.9,El Paso, TX
+1412,APRL-003,Women's Running Shoes,Apparel,89.95,3,2023-12-09,CUST-138,4.3,Memphis, TN
+1413,BOOK-002,Advanced Python Programming,Books,59.99,2,2023-12-10,CUST-139,4.9,Oklahoma City, OK
+1414,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-12-11,CUST-140,4.3,Louisville, KY
+1415,HB-002,Vitamin C Supplement,Health & Beauty,19.99,10,2023-12-12,CUST-141,4.5,Milwaukee, WI
+1416,ELEC-004,Smartwatch Series 8,Electronics,429.00,5,2023-12-13,CUST-142,4.6,Albuquerque, NM
+1417,APRL-004,Men's Denim Jacket,Apparel,110.00,2,2023-12-14,CUST-143,4.5,Tucson, AZ
+1418,BOOK-003,The Art of Statistics,Books,38.00,4,2023-12-15,CUST-144,4.8,Fresno, CA
+1419,HK-003,Air Fryer XL,Home & Kitchen,129.99,3,2023-12-16,CUST-145,4.7,Sacramento, CA
+1420,HB-003,Electric Toothbrush,Health & Beauty,79.50,2,2023-12-17,CUST-146,4.9,Mesa, AZ
+1421,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,6,2023-12-18,CUST-147,4.7,Long Beach, CA
+1422,APRL-005,Women's Summer Dress,Apparel,65.50,4,2023-12-19,CUST-148,4.4,Colorado Springs, CO
+1423,BOOK-004,Introduction to Machine Learning,Books,65.00,2,2023-12-20,CUST-149,4.9,Virginia Beach, VA
+1424,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-12-21,CUST-150,5.0,Raleigh, NC
+1425,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,10,2023-12-22,CUST-151,4.4,Omaha, NE
+1426,ELEC-006,Drone with 4K Camera,Electronics,599.00,2,2023-12-23,CUST-152,4.8,Oakland, CA
+1427,APRL-006,Men's Formal Shirt,Apparel,55.00,5,2023-12-24,CUST-153,4.5,Tulsa, OK
+1428,BOOK-005,Deep Learning with PyTorch,Books,75.00,3,2023-12-26,CUST-154,5.0,Bakersfield, CA
+1429,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-12-28,CUST-155,4.8,Wichita, KS
+1430,HB-005,Anti-Aging Cream,Health & Beauty,45.00,4,2023-12-30,CUST-156,4.6,Arlington, TX
+1431,ELEC-007,Digital Camera,Electronics,650.00,1,2023-01-02,CUST-157,4.7,New Orleans, LA
+1432,APRL-007,Winter Coat,Apparel,150.00,1,2023-01-05,CUST-158,4.5,Cleveland, OH
+1433,BOOK-006,SQL for Data Analysis,Books,40.00,2,2023-01-08,CUST-159,4.9,Honolulu, HI
+1434,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-01-11,CUST-160,4.6,Long Beach, CA
+1435,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-01-14,CUST-161,4.8,Lexington, KY
+1436,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-01-17,CUST-162,4.8,Corpus Christi, TX
+1437,APRL-008,Leather Belt,Apparel,35.00,3,2023-01-20,CUST-163,4.3,Stockton, CA
+1438,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-01-23,CUST-164,5.0,Henderson, NV
+1439,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-01-26,CUST-165,4.4,Plano, TX
+1440,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-01-29,CUST-166,4.7,Lincoln, NE
+1441,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-02-01,CUST-167,4.6,St. Paul, MN
+1442,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,10,2023-02-04,CUST-168,4.2,Jersey City, NJ
+1443,BOOK-001,The Data Scientist's Handbook,Books,45.50,2,2023-02-07,CUST-169,4.8,Greensboro, NC
+1444,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-02-10,CUST-170,4.7,Chandler, AZ
+1445,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-02-13,CUST-171,4.9,Fort Wayne, IN
+1446,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-02-16,CUST-172,4.7,Irvine, CA
+1447,APRL-002,Women's Yoga Pants,Apparel,49.99,5,2023-02-19,CUST-173,4.1,Durham, NC
+1448,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-02-22,CUST-174,4.9,St. Petersburg, FL
+1449,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-02-25,CUST-175,4.3,Laredo, TX
+1450,HB-002,Vitamin C Supplement,Health & Beauty,19.99,6,2023-02-28,CUST-176,4.5,Gilbert, AZ
+1451,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-03-03,CUST-177,4.9,Norfolk, VA
+1452,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-03-06,CUST-178,4.3,Madison, WI
+1453,BOOK-003,The Art of Statistics,Books,38.00,2,2023-03-09,CUST-179,4.8,Reno, NV
+1454,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-03-12,CUST-180,4.7,Buffalo, NY
+1455,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-03-15,CUST-181,4.9,Toledo, OH
+1456,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-03-18,CUST-182,4.6,Chula Vista, CA
+1457,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-03-21,CUST-183,4.5,Fort Wayne, IN
+1458,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-03-24,CUST-184,4.9,St. Petersburg, FL
+1459,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-03-27,CUST-185,5.0,Laredo, TX
+1460,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,4,2023-03-30,CUST-186,4.4,Gilbert, AZ
+1461,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,2,2023-04-02,CUST-187,4.7,Norfolk, VA
+1462,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-04-05,CUST-188,4.4,Madison, WI
+1463,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-04-08,CUST-189,5.0,Reno, NV
+1464,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-04-11,CUST-190,4.8,Buffalo, NY
+1465,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-04-14,CUST-191,4.6,Toledo, OH
+1466,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-04-17,CUST-192,4.8,Chula Vista, CA
+1467,APRL-006,Men's Formal Shirt,Apparel,55.00,1,2023-04-20,CUST-193,4.5,Fort Wayne, IN
+1468,BOOK-006,SQL for Data Analysis,Books,40.00,1,2023-04-23,CUST-194,4.9,St. Petersburg, FL
+1469,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-04-26,CUST-195,4.6,Laredo, TX
+1470,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-04-29,CUST-196,4.8,Gilbert, AZ
+1471,ELEC-007,Digital Camera,Electronics,650.00,1,2023-05-02,CUST-197,4.7,Norfolk, VA
+1472,APRL-007,Winter Coat,Apparel,150.00,1,2023-05-05,CUST-198,4.5,Madison, WI
+1473,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-05-08,CUST-199,5.0,Reno, NV
+1474,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-05-11,CUST-200,4.4,Buffalo, NY
+1475,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-05-14,CUST-201,4.7,Toledo, OH
+1476,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-05-17,CUST-202,4.8,Chula Vista, CA
+1477,APRL-008,Leather Belt,Apparel,35.00,2,2023-05-20,CUST-101,4.3,Dallas, TX
+1478,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-05-23,CUST-102,4.8,New York, NY
+1479,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-05-26,CUST-103,4.7,Los Angeles, CA
+1480,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-05-29,CUST-104,4.9,Chicago, IL
+1481,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-06-01,CUST-105,4.6,Miami, FL
+1482,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,5,2023-06-04,CUST-106,4.2,Seattle, WA
+1483,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-06-07,CUST-107,4.9,Boston, MA
+1484,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-06-10,CUST-108,4.3,San Francisco, CA
+1485,HB-002,Vitamin C Supplement,Health & Beauty,19.99,3,2023-06-13,CUST-109,4.5,Austin, TX
+1486,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-06-16,CUST-110,4.7,Denver, CO
+1487,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-06-19,CUST-111,4.1,Portland, OR
+1488,BOOK-003,The Art of Statistics,Books,38.00,1,2023-06-22,CUST-112,4.8,Phoenix, AZ
+1489,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-06-25,CUST-113,4.7,Atlanta, GA
+1490,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-06-28,CUST-114,4.9,Houston, TX
+1491,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-07-01,CUST-115,4.9,San Diego, CA
+1492,APRL-003,Women's Running Shoes,Apparel,89.95,1,2023-07-04,CUST-116,4.3,Philadelphia, PA
+1493,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-07-07,CUST-117,4.9,Washington, DC
+1494,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-07-10,CUST-118,5.0,Las Vegas, NV
+1495,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,2,2023-07-13,CUST-119,4.4,Minneapolis, MN
+1496,ELEC-004,Smartwatch Series 8,Electronics,429.00,1,2023-07-16,CUST-120,4.6,Detroit, MI
+1497,APRL-004,Men's Denim Jacket,Apparel,110.00,1,2023-07-19,CUST-121,4.5,Raleigh, NC
+1498,BOOK-005,Deep Learning with PyTorch,Books,75.00,1,2023-07-22,CUST-122,5.0,Charlotte, NC
+1499,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-07-25,CUST-123,4.8,Nashville, TN
+1500,HB-005,Anti-Aging Cream,Health & Beauty,45.00,1,2023-07-28,CUST-124,4.6,Orlando, FL
+1501,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,1,2023-07-31,CUST-125,4.7,St. Louis, MO
+1502,APRL-005,Women's Summer Dress,Apparel,65.50,1,2023-08-03,CUST-126,4.4,Tampa, FL
+1503,BOOK-006,SQL for Data Analysis,Books,40.00,1,2023-08-06,CUST-127,4.9,Baltimore, MD
+1504,HK-006,Blender Pro,Home & Kitchen,95.00,1,2023-08-09,CUST-128,4.6,Pittsburgh, PA
+1505,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-08-12,CUST-129,4.8,Cincinnati, OH
+1506,ELEC-006,Drone with 4K Camera,Electronics,599.00,1,2023-08-15,CUST-130,4.8,Kansas City, MO
+1507,APRL-006,Men's Formal Shirt,Apparel,55.00,1,2023-08-18,CUST-131,4.5,Indianapolis, IN
+1508,BOOK-007,The Pragmatic Programmer,Books,55.00,1,2023-08-21,CUST-132,5.0,Columbus, OH
+1509,HK-007,Coffee Grinder,Home & Kitchen,30.00,1,2023-08-24,CUST-133,4.4,San Antonio, TX
+1510,HB-007,Beard Trimmer,Health & Beauty,45.00,1,2023-08-27,CUST-134,4.7,San Jose, CA
+1511,ELEC-007,Digital Camera,Electronics,650.00,1,2023-08-30,CUST-135,4.7,Jacksonville, FL
+1512,APRL-007,Winter Coat,Apparel,150.00,1,2023-09-02,CUST-136,4.5,Fort Worth, TX
+1513,BOOK-001,The Data Scientist's Handbook,Books,45.50,1,2023-09-05,CUST-137,4.8,El Paso, TX
+1514,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-09-08,CUST-138,4.7,Memphis, TN
+1515,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-09-11,CUST-139,4.9,Oklahoma City, OK
+1516,ELEC-008,Tablet Pro,Electronics,899.00,1,2023-09-14,CUST-140,4.8,Louisville, KY
+1517,APRL-008,Leather Belt,Apparel,35.00,2,2023-09-17,CUST-141,4.3,Milwaukee, WI
+1518,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-09-20,CUST-142,4.9,Albuquerque, NM
+1519,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-09-23,CUST-143,4.3,Tucson, AZ
+1520,HB-002,Vitamin C Supplement,Health & Beauty,19.99,4,2023-09-26,CUST-144,4.5,Fresno, CA
+1521,ELEC-001,4K Smart TV,Electronics,799.99,1,2023-09-29,CUST-145,4.6,Sacramento, CA
+1522,APRL-001,Men's Cotton T-Shirt,Apparel,25.00,12,2023-10-02,CUST-146,4.2,Mesa, AZ
+1523,BOOK-003,The Art of Statistics,Books,38.00,2,2023-10-05,CUST-147,4.8,Long Beach, CA
+1524,HK-003,Air Fryer XL,Home & Kitchen,129.99,1,2023-10-08,CUST-148,4.7,Colorado Springs, CO
+1525,HB-003,Electric Toothbrush,Health & Beauty,79.50,1,2023-10-11,CUST-149,4.9,Virginia Beach, VA
+1526,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,2,2023-10-14,CUST-150,4.7,Raleigh, NC
+1527,APRL-002,Women's Yoga Pants,Apparel,49.99,8,2023-10-17,CUST-151,4.1,Omaha, NE
+1528,BOOK-004,Introduction to Machine Learning,Books,65.00,1,2023-10-20,CUST-152,4.9,Oakland, CA
+1529,HK-004,Stand Mixer,Home & Kitchen,299.99,1,2023-10-23,CUST-153,5.0,Tulsa, OK
+1530,HB-004,Sunscreen SPF 50,Health & Beauty,15.99,6,2023-10-26,CUST-154,4.4,Bakersfield, CA
+1531,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-10-29,CUST-155,4.9,Wichita, KS
+1532,APRL-003,Women's Running Shoes,Apparel,89.95,3,2023-11-01,CUST-156,4.3,Arlington, TX
+1533,BOOK-005,Deep Learning with PyTorch,Books,75.00,2,2023-11-04,CUST-157,5.0,New Orleans, LA
+1534,HK-005,Smart Thermostat,Home & Kitchen,199.00,1,2023-11-07,CUST-158,4.8,Cleveland, OH
+1535,HB-005,Anti-Aging Cream,Health & Beauty,45.00,2,2023-11-10,CUST-159,4.6,Honolulu, HI
+1536,ELEC-004,Smartwatch Series 8,Electronics,429.00,6,2023-11-13,CUST-160,4.6,Long Beach, CA
+1537,APRL-004,Men's Denim Jacket,Apparel,110.00,2,2023-11-16,CUST-161,4.5,Lexington, KY
+1538,BOOK-006,SQL for Data Analysis,Books,40.00,5,2023-11-19,CUST-162,4.9,Corpus Christi, TX
+1539,HK-006,Blender Pro,Home & Kitchen,95.00,3,2023-11-22,CUST-163,4.6,Stockton, CA
+1540,HB-006,Hair Dryer,Health & Beauty,60.00,1,2023-11-24,CUST-164,4.8,Henderson, NV
+1541,ELEC-005,Portable Bluetooth Speaker,Electronics,99.99,8,2023-11-25,CUST-165,4.7,Plano, TX
+1542,APRL-005,Women's Summer Dress,Apparel,65.50,5,2023-11-26,CUST-166,4.4,Lincoln, NE
+1543,BOOK-007,The Pragmatic Programmer,Books,55.00,2,2023-11-27,CUST-167,5.0,St. Paul, MN
+1544,HK-007,Coffee Grinder,Home & Kitchen,30.00,4,2023-11-28,CUST-168,4.4,Jersey City, NJ
+1545,HB-007,Beard Trimmer,Health & Beauty,45.00,3,2023-11-29,CUST-169,4.7,Greensboro, NC
+1546,ELEC-006,Drone with 4K Camera,Electronics,599.00,3,2023-11-30,CUST-170,4.8,Chandler, AZ
+1547,APRL-006,Men's Formal Shirt,Apparel,55.00,6,2023-12-01,CUST-171,4.5,Fort Wayne, IN
+1548,BOOK-001,The Data Scientist's Handbook,Books,45.50,6,2023-12-02,CUST-172,4.8,Irvine, CA
+1549,HK-001,Espresso Machine,Home & Kitchen,249.95,2,2023-12-03,CUST-173,4.7,Durham, NC
+1550,HB-001,Organic Face Serum,Health & Beauty,35.75,5,2023-12-04,CUST-174,4.9,St. Petersburg, FL
+1551,ELEC-007,Digital Camera,Electronics,650.00,2,2023-12-05,CUST-175,4.7,Laredo, TX
+1552,APRL-007,Winter Coat,Apparel,150.00,3,2023-12-06,CUST-176,4.5,Gilbert, AZ
+1553,BOOK-002,Advanced Python Programming,Books,59.99,3,2023-12-07,CUST-177,4.9,Norfolk, VA
+1554,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-12-08,CUST-178,4.3,Madison, WI
+1555,HB-002,Vitamin C Supplement,Health & Beauty,19.99,12,2023-12-09,CUST-179,4.5,Reno, NV
+1556,ELEC-008,Tablet Pro,Electronics,899.00,3,2023-12-10,CUST-180,4
