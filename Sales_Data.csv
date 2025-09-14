@@ -5,7 +5,6 @@ OrderID,ProductID,ProductName,ProductCategory,UnitPrice,Quantity,OrderDate,Custo
 1004,HK-001,Espresso Machine,Home & Kitchen,249.95,1,2023-01-22,CUST-104,4.7,"Chicago, IL"
 1005,HB-001,Organic Face Serum,Health & Beauty,35.75,1,2023-01-25,CUST-105,4.9,"Miami, FL"
 1006,ELEC-002,Wireless Noise-Cancelling Headphones,Electronics,349.00,1,2023-01-28,CUST-101,4.6,"Dallas, TX"
-1007,APRL-002,Women's Yoga Pants,Apparel,49.99,2,2023-02-01,CUST-106,,,"Seattle, WA"
 1008,BOOK-002,Advanced Python Programming,Books,59.99,1,2023-02-03,CUST-107,4.9,"Boston, MA"
 1009,HK-002,Robotic Vacuum Cleaner,Home & Kitchen,399.00,1,2023-02-05,CUST-108,4.3,"San Francisco, CA"
 1010,ELEC-003,Gaming Laptop,Electronics,1499.99,1,2023-02-08,CUST-109,4.8,"Austin, TX"
